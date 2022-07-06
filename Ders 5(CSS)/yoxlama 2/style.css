@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 351px;
+  margin: auto;
+}
+
+:root {
+  --bo: "Heebo";
+}
+
+/* one css start */
+
+#one {
+  background-color: #f1f7fd;
+  width: 440px;
+}
+
+#one h1 {
+  font: bold 24px var(--bo);
+  line-height: 28px;
+  color: #4f4f4f;
+  padding: 35px 0 35px 0;
+}
+
+#one h2 {
+  font: bold 14px var(--bo);
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #4f4f4f;
+}
+
+#one form input {
+  font: 300 18px var(--bo);
+  width: 100%;
+  color: #555555;
+  background-color: #fbfdfe;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 20px 0 20px 25px;
+}
+#one form input::placeholder {
+  color: #656566;
+}
+
+#one form input:nth-child(1) {
+  margin-bottom: 29px;
+}
+
+#one form input:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+#one button {
+      font: bold 22px var(--bo);
+  width: 100%;
+  height: 55px;
+  border-radius: 4px;
+  filter: drop-shadow(0px 3px 0px #0075aa);
+  background-color: #0896d7;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0px -1px 0px rgba(0, 0, 0, 0.2));
+  outline: none;
+  border: none;
+  margin: 20px 10px 20px 10px;
+}
+
+/* 
+#one form h3 {
+  font: bold 14px var(--bo);
+  line-height: 28px;
+  color: #8b8b8b;
+}
+
+#two {
+  width: 21px;
+  height: 21px;
+  border-radius: 6px;
+  background-color: #04a9f4;
+} */
+
+/* one css finish */
+
+
